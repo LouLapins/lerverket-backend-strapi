@@ -42,17 +42,15 @@
     "year": {
       "type": "biginteger",
       "default": "2022",
-      "required": true,
-      "max": "4",
-      "min": "4"
+      "required": true
     },
     "coverImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
