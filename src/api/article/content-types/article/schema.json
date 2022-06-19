@@ -20,7 +20,7 @@
       "type": "richtext",
       "required": true
     },
-    "image": {
+    "images": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -37,6 +37,14 @@
     "slug": {
       "type": "uid",
       "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Hitta hit"
+    },
+    "buttonRoute": {
+      "type": "string",
+      "default": "/kontakt"
     }
   }
 }
